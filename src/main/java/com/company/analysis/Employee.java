@@ -4,7 +4,6 @@ package com.company.analysis;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Employee {
     private final int id;
@@ -14,8 +13,6 @@ public class Employee {
     private final Integer managerId;
     private Employee manager;
     private final List<Employee> directReports = new ArrayList<>();
-    
-    // Cache for performance optimization
     private Double averageSubordinateSalary;
     private Integer managerCount;
 

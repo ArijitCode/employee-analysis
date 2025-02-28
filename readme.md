@@ -53,7 +53,6 @@ The application is designed to handle large CSV files efficiently:
 
 - Uses Java's Fork/Join framework for parallel processing
 - Processes data in batches for better memory usage
-- Uses caching to avoid redundant calculations
 - Thread-safe implementation for concurrent operations
 
 ## Assumptions
