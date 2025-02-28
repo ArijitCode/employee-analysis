@@ -12,3 +12,5 @@ target/
 .classpath
 .idea/
 *.swp
+.DS_Store
+*.pub
