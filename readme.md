@@ -16,7 +16,7 @@ This Java application analyzes employee organizational data to identify potentia
 To build the application, run:
 
 ```bash
-mvn clean package
+mvn clean install
 ```
 
 This will create an executable JAR file `employee-analysis-1.0-SNAPSHOT-jar-with-dependencies.jar` in the `target` directory.
