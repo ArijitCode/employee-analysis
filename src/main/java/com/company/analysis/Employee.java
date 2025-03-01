@@ -13,6 +13,7 @@ public class Employee {
     private final Integer managerId;
     private Employee manager;
     private final List<Employee> directReports = new ArrayList<>();
+    // Cache fields for performance optimization
     private Double averageSubordinateSalary;
     private Integer managerCount;
 
